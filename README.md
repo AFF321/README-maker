@@ -1,11 +1,11 @@
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-# README generator
+# Employee_tracker
 
 ## Description
 
-the project can generate README's using node.js
+you can add, update, and view the departments, roles, and workers
 
 
 |      [Install](#Install)      |    [Usage](#Usage)      |
@@ -17,22 +17,22 @@ the project can generate README's using node.js
 
 ## Install
 
-    to install simply just clone the repository or download zip and extract, then open the folder with git bash and type 'node index.js'
+install the .zip or clone the directory, where you  download it to a folder, if you download the zip be sure to unzip it
 
 
 ## Usage
 
-    type 'node index.js'
+open mySQL workbench and paste the schema.sql contents into the workbench, then run the code, after open the git bash terminal and then run npm i to install dependencies, after change the remove the .template from the .env file and put in your user and password, you can set user to 'root', after that just run node server.js in the command line of git bash
 
 
 ## Contribution
 
-    you can contribute by making a new branch and changing the code in the branch to whatever you think is better
+you can contribute by cloning and making changes in adifferent branch
 
 
 ## Testing
 
-    you can test the code by typing 'node index.js' with git bash
+you can follow the usage instructions
 
 
 ## License

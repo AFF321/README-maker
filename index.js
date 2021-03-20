@@ -24,22 +24,22 @@ ${answers.describe}
 
 ## Install
 
-    ${answers.install}
+${answers.install}
 
 
 ## Usage
 
-    ${answers.usage}
+${answers.usage}
 
 
 ## Contribution
 
-    ${answers.contribution}
+${answers.contribution}
 
 
 ## Testing
 
-    ${answers.test}
+${answers.test}
 
 
 ## License
@@ -85,16 +85,16 @@ inquirer
             message:'how can they test it?',
         },
         {
-            type:'checkbox',
+            type:'rawlist',
             name: 'license',
             message:'what license?',
             choices:['MIT','Apache','GNU']
         },
         {
-            type:'checkbox',
+            type:'rawlist',
             name: 'license2',
             message:'what license?',
-            choices:['[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]','[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]','[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]']
+            choices:['![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)','![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)','![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)']
         },
         {
             type:'input',
